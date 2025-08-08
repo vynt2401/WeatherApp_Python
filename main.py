@@ -6,7 +6,8 @@ from datetime import datetime, timedelta
 import requests
 from PIL import Image, ImageTk  
 from tkinter import messagebox
-from timezoneFinder import TimeZoneFinder
+from timezonefinder import timezone_at
+from timezonefinder import TimezoneFinder
 
 
 
