@@ -141,7 +141,7 @@ day2_temp.place(x = 2, y = 70)
 
 #third_cell
 third_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
-third_frame.place(x = 400, y = 325) 
+third_frame.place(x = 405, y = 325) 
 
 third_frame_img = Label(third_frame, bg = "#eeefea")
 third_frame_img.place(x = 7, y = 20)
@@ -152,6 +152,19 @@ day3.place(x = 10, y = 5)
 day3_temp = Label(third_frame, background= "#eeefea")
 day3_temp.place(x = 2, y = 70)
 
+#fourth_cell
+
+fourth_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
+fourth_frame.place(x = 505, y = 325)    
+
+fourth_frame_img = Label(fourth_frame, bg = "#eeefea")
+fourth_frame_img.place(x = 7, y = 20)
+
+day4 = Label(fourth_frame, bg = "#eeefea")
+day4.place(x = 10, y = 5)
+
+day4_temp = Label(fourth_frame, background= "#eeefea")
+day4_temp.place(x = 2, y = 70)
 
 
 root.mainloop()
