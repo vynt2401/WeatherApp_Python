@@ -107,6 +107,8 @@ p.place(x = 150, y =160)
 w = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
 w.place(x = 150, y =180)
 
+d = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
+d.place(x = 150, y =200)
 
 
 root.mainloop()
