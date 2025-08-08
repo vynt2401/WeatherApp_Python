@@ -50,7 +50,7 @@ myimg.place(x = 2710, y  = 122)
 
 weat_img = PhotoImage(file = "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Layer 7.png")
 weatherimgae = Label(root, image=weat_img, bg = "#333c4c")
-weatherimgae.place(x = 280, y = 123)
+weatherimgae.place(x = 280, y = 122)
 
 textField = tk.Entry(root, justify="center", width=15, font=("poppins", 25, 'bold'), bg = "#333c4c",border=0, fg = "white")
 textField.place(x= 340, y = 124)
