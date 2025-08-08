@@ -17,7 +17,7 @@ def getWeather():
     geolocator = Nominatim(user_agent="new")    
     location = geolocator.geocode(city)
     obj = TimeZoneFinder()
-    
+    result = obj.timezone_at(lat=location.latitude, lng=location.longitude)
 
 
 
