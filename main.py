@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 import requests
 from PIL import Image, ImageTk  
 from tkinter import messagebox
+from timezoneFinder import TimezoneFinder
 
 
 
@@ -14,7 +15,9 @@ from tkinter import messagebox
 
 def getWeather():
     city = textField.get()
-    print(city)
+    geolocator = Nominatim(user_agent="new")    
+    location = geolocator.geocode(city)
+    obj = TimeZoneFinder(location.)
 
 
 
