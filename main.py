@@ -123,5 +123,6 @@ day1 = Label(first_frame, font = ("Arial", 10), bg = "#323661", fg = "white")
 day1.place(x = 100, y = 5)
 
 day1_temp = Label(first_frame, font = ("Arial", 15, 'bold'), bg = "#323661", fg = "white")
+day1_temp.place(x = 100, y = 30)    
 
 root.mainloop()
