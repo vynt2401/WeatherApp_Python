@@ -27,6 +27,10 @@ def getWeather():
     local_time = datetime.now(home)
     current_time = local_time.strftime("%I:%M:%p")
     clock.config(text=current_time)
+    
+    
+    api_key = "b8c553546d209021905dd9e154c9a2a6"
+    api = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
 
 
