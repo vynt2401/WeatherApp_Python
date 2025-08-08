@@ -166,5 +166,18 @@ day4.place(x = 10, y = 5)
 day4_temp = Label(fourth_frame, background= "#eeefea", fg = "#000")
 day4_temp.place(x = 2, y = 70)
 
+#fifth_cell
+fifth_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
+fifth_frame.place(x = 605, y = 325) 
+
+fifth_frame_img = Label(fifth_frame, bg = "#eeefea")
+fifth_frame_img.place(x = 7, y = 20)
+
+day5 = Label(fifth_frame, bg = "#eeefea")
+day5.place(x = 10, y = 5)
+
+day5_temp = Label(fifth_frame, background= "#eeefea", fg = "#000")
+day5_temp.place(x = 2, y = 70)
+
 
 root.mainloop()
