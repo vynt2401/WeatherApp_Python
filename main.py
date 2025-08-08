@@ -74,6 +74,9 @@ second_box = PhotoImage(file= "/run/media/ntv/MAIN/Python_testing/APP/app_weathe
 
 Label(frame, image=first_box, bg = "#7094d4").place(x= 30, y = 20)
 Label(frame, image=second_box, bg = "#7094d4").place(x= 300, y = 30)
+Label(frame, image=second_box, bg = "#7094d4").place(x= 400, y = 30)
+Label(frame, image=second_box, bg = "#7094d4").place(x= 500, y = 30)
+Label(frame, image=second_box, bg = "#7094d4").place(x= 600, y = 30)
 
 
 
