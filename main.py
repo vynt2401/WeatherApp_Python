@@ -43,7 +43,10 @@ label5.place(x =50, y = 200)
 
 #Search Box
 
-Search_img = PhotoImage(file  = "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Layer 6.png")
+Search_img = PhotoImage(file  = "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Rounded Rectangle 3.png")
 myimg = Label(root, image = Search_img, bg = '#202731')
 myimg.place(x = 2710, y  = 122)
+
+
+
 root.mainloop()
