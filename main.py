@@ -96,7 +96,16 @@ long_lat.place(x = 500, y = 50)
 #thpwd
 
 t = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
-t.place(x = 370, y =200)
+t.place(x = 150, y =120)
+
+h = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
+h.place(x = 150, y =120)
+
+p = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
+p.place(x = 150, y =120)
+
+w = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
+w.place(x = 150, y =120)
 
 
 
