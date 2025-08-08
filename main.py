@@ -128,7 +128,7 @@ day1_temp.place(x = 100, y = 50)
 
 #second_cell
 second_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
-second_frame.place(x = 305, y = 325)
+second_frame.place(x = 300, y = 325)
 
 second_frame_img = Label(second_frame, bg = "#eeefea")
 second_frame_img.place(x = 7, y = 20)
