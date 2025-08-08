@@ -80,7 +80,7 @@ Label(frame, image=second_box, bg = "#7094d4").place(x= 600, y = 30)
 
 
 #clock 
-clock = Label(root,text="test" , font = ("Helvetica", 20), bg = "#202731", fg = "white")
+clock = Label(root , font = ("Helvetica", 20), bg = "#202731", fg = "white")
 clock.place(x = 30, y = 20)
 
 #time zone 
