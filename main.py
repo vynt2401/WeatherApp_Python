@@ -17,7 +17,7 @@ def getWeather():
     city = textField.get()
     geolocator = Nominatim(user_agent="new")    
     location = geolocator.geocode(city)
-    obj = TimeZoneFinder()
+    obj = TimezoneFinder()
     result = obj.timezone_at(lat=location.latitude, lng=location.longitude)
     timeZone.config(text=result)
 
