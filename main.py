@@ -18,6 +18,7 @@ def getWeather():
     location = geolocator.geocode(city)
     obj = TimeZoneFinder()
     result = obj.timezone_at(lat=location.latitude, lng=location.longitude)
+    timeZone.config(text=result)
 
 
 
