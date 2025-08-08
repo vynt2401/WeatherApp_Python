@@ -131,7 +131,7 @@ second_frame = Frame(root, width = 230, height=115, bg = "#eeefea")
 second_frame.place(x = 300, y = 315)
 
 second_frame_img = Label(second_frame, bg = "#eeefea")
-second_frame_img.place(x = 7, y = 15)
+second_frame_img.place(x = 7, y = 20)
 
 
 root.mainloop()
