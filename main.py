@@ -30,7 +30,7 @@ def getWeather():
     
     
     api_key = "b8c553546d209021905dd9e154c9a2a6"
-    api = f"api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
+    api = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
     json_data = requests.get(api).json()
     
     #current weather data 
