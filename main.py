@@ -80,16 +80,16 @@ Label(frame, image=second_box, bg = "#7094d4").place(x= 600, y = 30)
 
 
 #clock 
-clock = Label(root, font = ("Helvetica", 20), bg = "#202731", fg = "#white")
+clock = Label(root, font = ("Helvetica", 20), bg = "#202731", fg = "white")
 clock.place(x = 30, y = 20)
 
 #time zone 
 
-timeZone = Label(root, font = ("Helvetica", 20), bg = "#202731", fg = "#white")
+timeZone = Label(root, font = ("Helvetica", 20), bg = "#202731", fg = "white")
 timeZone.place(x = 500, y = 20)
 
 
-long_lat = Label(root, font = ("Helvetica", 10), bg = "#202731", fg = "#white")
+long_lat = Label(root, font = ("Helvetica", 10), bg = "#202731", fg = "white")
 long_lat.place(x = 500, y = 50)
 
 
