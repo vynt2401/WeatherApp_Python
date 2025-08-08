@@ -12,7 +12,7 @@ root = Tk()
 root.title("Weather App")
 root.geometry("750x470+300+200")
 root.resizable(False, False)
-root.config(bg = "#202731")
+root.config(bg = "#333c4c")
 
 
 #ICON
