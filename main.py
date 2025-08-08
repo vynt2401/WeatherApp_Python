@@ -113,7 +113,7 @@ d.place(x = 150, y =200)
 
 #first_cell
 
-first_frame = Frame(root, width = 230, height=132, bg = "#aad1c8")
+first_frame = Frame(root, width = 230, height=132, bg = "red")
 first_frame.place(x = 35, y = 315)
 
 first_img = Label(first_frame, bg = "#323661")
