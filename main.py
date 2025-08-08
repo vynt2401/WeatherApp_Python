@@ -30,8 +30,24 @@ def getWeather():
     
     
     api_key = "b8c553546d209021905dd9e154c9a2a6"
-    api = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric".format(city, api_key)
-
+    api = f"api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}"
+    json_data = requests.get(api).json()
+    
+    #current weather data 
+    current = json_data['list'][0]
+    temp = current['main']['temp']
+    humidity = current['main']['humidity']
+    pressure = current['main']['pressure']
+    wind_speed = current['wind']['speed']
+    description = current['weather'][0]['description']
+    
+    
+    t.config(text = f"{temp}°C")
+    h.config(text = f"{humidity}%")
+    p.config(text = f"{pressure} hPa")
+    w.config(text = f"{wind_speed} m/s")
+    d.config(text = description.capitalize())
+    
 
 
 
