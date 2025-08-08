@@ -137,7 +137,7 @@ day2 = Label(second_frame, bg = "#eeefea")
 day2.place(x = 10, y = 5)
 
 day2_temp = Label(second_frame, background= "#eeefea",)
-day2_temp.place(x = 200, y = 50)
+day2_temp.place(x = 20, y = 50)
 
 
 
