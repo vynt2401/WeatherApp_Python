@@ -163,7 +163,7 @@ fourth_frame_img.place(x = 7, y = 20)
 day4 = Label(fourth_frame, bg = "#eeefea")
 day4.place(x = 10, y = 5)
 
-day4_temp = Label(fourth_frame, background= "#eeefea")
+day4_temp = Label(fourth_frame, background= "#eeefea", fg = "#000")
 day4_temp.place(x = 2, y = 70)
 
 
