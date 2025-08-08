@@ -113,7 +113,7 @@ d.place(x = 150, y =200)
 
 #first_cell
 
-first_frame = Frame(root, width = 230, height=132, bg = "red")
+first_frame = Frame(root, width = 230, height=132, bg = "#aad1c8")
 first_frame.place(x = 35, y = 315)
 
 first_img = Label(first_frame, bg = "#323661")
@@ -127,7 +127,7 @@ day1_temp.place(x = 100, y = 50)
 
 
 #second_cell
-second_frame = Frame(root, width = 70, height=115, bg = "red")
+second_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
 second_frame.place(x = 305, y = 325)
 
 second_frame_img = Label(second_frame, bg = "#eeefea")
@@ -140,7 +140,7 @@ day2_temp = Label(second_frame, background= "#eeefea", fg = "#000")
 day2_temp.place(x = 2, y = 70)
 
 #third_cell
-third_frame = Frame(root, width = 70, height=115, bg = "red")
+third_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
 third_frame.place(x = 405, y = 325) 
 
 third_frame_img = Label(third_frame, bg = "#eeefea")
@@ -154,7 +154,7 @@ day3_temp.place(x = 2, y = 70)
 
 #fourth_cell
 
-fourth_frame = Frame(root, width = 70, height=115, bg = "red")
+fourth_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
 fourth_frame.place(x = 505, y = 325)    
 
 fourth_frame_img = Label(fourth_frame, bg = "#eeefea")
@@ -167,7 +167,7 @@ day4_temp = Label(fourth_frame, background= "#eeefea", fg = "#000")
 day4_temp.place(x = 2, y = 70)
 
 #fifth_cell
-fifth_frame = Frame(root, width = 70, height=115, bg = "red")
+fifth_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
 fifth_frame.place(x = 605, y = 325) 
 
 fifth_frame_img = Label(fifth_frame, bg = "#eeefea")
