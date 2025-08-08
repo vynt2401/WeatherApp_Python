@@ -117,7 +117,7 @@ first_frame = Frame(frame, width = 200, height=150, bg = "#aad1c8")
 first_frame.place(x = 35, y = 135)
 
 first_img = Label(first_frame, bg = "#323661")
-first_img.place(x = 0, y = 0)
+first_img.place(x = 1, y = 15)
 
 
 root.mainloop()
