@@ -53,6 +53,6 @@ weatherimgae = Label(root, image=weat_img, bg = "#333c4c")
 weatherimgae.place(x = 290, y = 127)
 
 textField = tk.Entry(root, justify="center", width=15, font=("poppins", 25, 'bold'), bg = "#333c4c",border=0, fg = "white")
-textField.place(x= 340, y = 130)
+textField.place(x= 340, y = 120)
 
 root.mainloop()
