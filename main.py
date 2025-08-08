@@ -116,4 +116,6 @@ d.place(x = 150, y =200)
 first_frame = Frame(frame, width = 200, height=150, bg = "#aad1c8")
 first_frame.place(x = 35, y = 135)
 
+first_img = PhotoImage(file = "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Rounded Rectangle 2 copy 2.png")
+
 root.mainloop()
