@@ -8,6 +8,19 @@ from PIL import Image, ImageTk
 from tkinter import messagebox
 
 
+
+
+#function callback
+
+def getWeather():
+    city = textField.get()
+    print(city)
+
+
+
+
+
+
 root = Tk()
 root.title("Weather App")
 root.geometry("750x470+300+200")
