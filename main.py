@@ -49,6 +49,8 @@ myimg.place(x = 2710, y  = 122)
 
 
 weat_img = PhotoImage(file = "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Layer 6.png")
+weatherimgae = Label(root, imgae=weat_img, bg = "#333c4c")
+weatherimgae.place(x = 290, y = 127)
 
 
 
