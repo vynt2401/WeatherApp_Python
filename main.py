@@ -125,4 +125,13 @@ day1.place(x = 100, y = 5)
 day1_temp = Label(first_frame, font = ("Arial", 15, 'bold'), bg = "#323661", fg = "white")
 day1_temp.place(x = 100, y = 50)    
 
+
+#second_cell
+second_frame = Frame(root, width = 230, height=115, bg = "#eeefea")
+second_frame.place(x = 300, y = 315)
+
+second_frame_img = Label(second_frame, bg = "#eeefea")
+second_frame_img.place(x = 7, y = 15)
+
+
 root.mainloop()
