@@ -99,13 +99,13 @@ t = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
 t.place(x = 150, y =120)
 
 h = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
-h.place(x = 150, y =120)
+h.place(x = 150, y =140)
 
 p = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
-p.place(x = 150, y =120)
+p.place(x = 150, y =160)
 
 w = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
-w.place(x = 150, y =120)
+w.place(x = 150, y =180)
 
 
 
