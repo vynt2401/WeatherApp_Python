@@ -93,4 +93,11 @@ long_lat = Label(root, font = ("Helvetica", 10), bg = "#202731", fg = "white")
 long_lat.place(x = 500, y = 50)
 
 
+#thpwd
+
+t = Label(root, font = ("Helvetica", 9), bg = "#333c4c", fg = "white")
+t.place(x = 370, y =200)
+
+
+
 root.mainloop()
