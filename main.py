@@ -60,4 +60,22 @@ myimg_icon = Button(root, image= Search_icon, bg = "#333c4c", borderwidth=0,curs
 myimg_icon.place(x= 630, y = 125)
 
 
+
+
+#bottom box
+
+frame = Frame(root, width = 900, height=180, bg = "#7094d4")
+frame.pack(side = BOTTOM)
+
+#boxes 
+first_box = PhotoImage(file= "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Rounded Rectangle 2.png")
+second_box = PhotoImage(file= "/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/Images/Rounded Rectangle 2 copy.png")
+
+
+Label(frame, image=first_box, bg = "#7094d4").place(x= 30, y = 20)
+Label(frame, image=second_box, bg = "#7094d4").place(x= 400, y = 20)
+
+
+
+
 root.mainloop()
