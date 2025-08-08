@@ -128,15 +128,15 @@ day1_temp.place(x = 100, y = 50)
 
 #second_cell
 second_frame = Frame(root, width = 70, height=115, bg = "#eeefea")
-second_frame.place(x = 300, y = 325)
+second_frame.place(x = 305, y = 325)
 
 second_frame_img = Label(second_frame, bg = "#eeefea")
 second_frame_img.place(x = 7, y = 20)
 
-day2 = Label(second_frame, bg = "#eeefea", fg = "black")
-day2.place(x = 200, y = 5)
+day2 = Label(second_frame, bg = "#eeefea")
+day2.place(x = 10, y = 5)
 
-day2_temp = Label(second_frame, background= "#eeefea", fg = "black")
+day2_temp = Label(second_frame, background= "#eeefea",)
 day2_temp.place(x = 200, y = 50)
 
 
