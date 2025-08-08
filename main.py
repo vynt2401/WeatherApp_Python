@@ -30,7 +30,7 @@ def getWeather():
     
     
     api_key = "b8c553546d209021905dd9e154c9a2a6"
-    api = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+    api = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric".format(city, api_key)
 
 
 
