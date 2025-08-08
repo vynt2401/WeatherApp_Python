@@ -119,7 +119,9 @@ first_frame.place(x = 35, y = 315)
 first_img = Label(first_frame, bg = "#323661")
 first_img.place(x = 1, y = 15)
 
-day1 = Label(first_frame, text = "Day 1", font = ("Helvetica", 10), bg = "#323661", fg = "white")
+day1 = Label(first_frame, font = ("Arial", 10), bg = "#323661", fg = "white")
 day1.place(x = 100, y = 5)
+
+day1_temp = Label(first_frame, font = ("Arial", 15, 'bold'), bg = "#323661", fg = "white")
 
 root.mainloop()
