@@ -33,6 +33,7 @@ def getWeather():
     api = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
     json_data = requests.get(api).json()
     
+    
     #current weather data 
     current = json_data['list'][0]
     temp = current['main']['temp']
@@ -48,9 +49,46 @@ def getWeather():
     w.config(text = f"{wind_speed} m/s")
     d.config(text = description.capitalize())
     
-
-
-
+    #daily weather forecast
+    
+    daily_data = []
+    for entry in json_data["list"]:
+        if "12:00:00" in entry["dt_txt"]:
+            daily_data.append(entry)
+            
+    icons = []
+    temps = []
+    
+    for i in range (5):
+        if i > len(daily_data):
+            break
+        icon_code = daily_data[i]['weather'][0]['icon']
+        img = Image.open(f'/run/media/ntv/MAIN/Python_testing/APP/app_weather/OpenWeather 5 day API/icon/{icon_code}@2x.png').resize((50, 50), Image.Resampling.LANCZOS)
+        icons.append(ImageTk.PhotoImage(img))
+        temps.append((daily_data[i]['main']['temp_max'], daily_data[i]['main']['feels_like']))
+        
+    day_widget = [
+        (first_img, day1, day1_temp),
+        (second_frame_img, day2, day2_temp),
+        (third_frame_img, day3, day3_temp),
+        (fourth_frame_img, day4, day4_temp),
+        (fifth_frame_img, day5, day5_temp)
+    ]
+    
+    for i,(img_label, day_label, temp_label) in enumerate(day_widget):
+        if i  >= len(icons):
+            break
+        img_label.config(image=icons[i])
+        img_label.image = icons[i]        
+        temp_label.config(text = f"Day: {temps[i][0]}\nNight: {temps[i][1]}")
+        future_date = datetime.now() + timedelta(days=i)
+        day_label.config(text=future_date.strftime("%A"))
+        
+        
+        
+        
+        
+        
 root = Tk()
 root.title("Weather App")
 root.geometry("750x470+300+200")
